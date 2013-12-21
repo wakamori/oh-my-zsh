@@ -21,7 +21,7 @@
 
 # The prompt
 
-PROMPT='%{${fg[magenta]}%}%n@%m%(!.#.$) %{${reset_color}%}'
+PROMPT='%{${fg[green]}%}%n@%m%(!.#.$) %{${reset_color}%}'
 
 # The right-hand prompt
 
