@@ -31,8 +31,8 @@ RPROMPT='%{$fg[magenta]%}$(git_prompt_info)%{$reset_color%}$(git_prompt_status)%
 # %{$fg[yellow]%}$(~/.rvm/bin/rvm-prompt)%{$reset_color%} 
 
 # location, color coded by last return code
-location_enabled="%(?.%{$fg[green]%}.%{$fg[red]%})[%~]%{$reset_color%}"
-location_disabled="%{$fg[green]%}[%~]%{$reset_color%}"
+location_enabled="%(?.%{${fg[green]}%}.%{${fg[red]}%})[%~]%{${reset_color}%}"
+location_disabled="%{${fg[green]}%}[%~]%{${reset_color}%}"
 location=$location_enabled
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" ☁  %{$fg[red]%}"
